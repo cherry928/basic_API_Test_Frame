@@ -1,5 +1,0 @@
-#!usr/bin/env python
-# encoding: utf-8
-# @author: cherry
-# @file:set_user_mark_cases.py
-# @time:2020/7/5 4:44 下午

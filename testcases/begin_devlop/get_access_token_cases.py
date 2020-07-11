@@ -31,7 +31,7 @@ class GetAccessTokenCases(unittest.TestCase):
         # print(respon_obj.json())
 
     def test_appid_error(self):
-        self._testMethodDoc = '[case02] appid错误时的测试'
+        # self._testMethodDoc = '[case02] appid错误时的测试'
         logger.info('case02 appid错误时的测试')
         api_url = '/cgi-bin/token'
         get_params_data = {

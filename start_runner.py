@@ -12,7 +12,7 @@ from common import HTMLTestReportCN
 
 def get_all_cases_suite():
     discover = unittest.defaultTestLoader.discover(start_dir='./testcases',
-                                                   pattern='*_cases.py',
+                                                   pattern='*_cases_01.py',
                                                    top_level_dir='./testcases')
     all_suite = unittest.TestSuite()
     all_suite.addTest(discover)
